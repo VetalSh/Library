@@ -11,7 +11,7 @@
 
     <tag>
         <name>userName</name>
-        <tag-class>library.jstltag.UserName</tag-class>
+        <tag-class>library.utils.tagClasses.UserName</tag-class>
         <attribute>
             <name>user</name>
             <required>true</required>
@@ -20,7 +20,7 @@
     </tag>
     <tag>
         <name>redirectIfEmpty</name>
-        <tag-class>library.jstltag.RedirectIfEmpty</tag-class>
+        <tag-class>library.utils.tagClasses.RedirectIfEmpty</tag-class>
         <attribute>
             <name>value</name>
             <required>true</required>
@@ -33,7 +33,7 @@
     </tag>
     <tag>
         <name>setList</name>
-        <tag-class>library.jstltag.SetList</tag-class>
+        <tag-class>library.utils.tagClasses.SetList</tag-class>
         <attribute>
             <name>var</name>
             <required>true</required>
@@ -45,7 +45,7 @@
     </tag>
     <tag>
         <name>getEntityByID</name>
-        <tag-class>library.jstltag.GetEntityByID</tag-class>
+        <tag-class>library.utils.tagClasses.GetEntityByID</tag-class>
         <attribute>
             <name>var</name>
             <required>true</required>
@@ -63,7 +63,7 @@
     </tag>
     <tag>
         <name>printCalendar</name>
-        <tag-class>library.jstltag.PrintCalendar</tag-class>
+        <tag-class>library.utils.tagClasses.PrintCalendar</tag-class>
         <attribute>
             <name>format</name>
             <required>true</required>
@@ -81,7 +81,7 @@
     </tag>
     <tag>
         <name>printAuthor</name>
-        <tag-class>library.jstltag.PrintAuthor</tag-class>
+        <tag-class>library.utils.tagClasses.PrintAuthor</tag-class>
         <attribute>
             <name>author</name>
             <required>true</required>

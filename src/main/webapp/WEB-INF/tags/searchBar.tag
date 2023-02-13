@@ -54,9 +54,7 @@
             </div>
             <div class="form-floating col-1">
                 <select class="form-select" id="showBy" aria-label="show by" name="num">
-                    <option <c:if test="${param.num eq 5}">selected</c:if> >
-                        5
-                    </option>
+                    <option <c:if test="${param.num eq 5}">selected</c:if> >5</option>
                     <option <c:if test="${param.num eq 10}">selected</c:if> >10</option>
                     <option <c:if test="${param.num eq 20}">selected</c:if> >20</option>
                 </select>

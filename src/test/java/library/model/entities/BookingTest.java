@@ -21,8 +21,6 @@ public class BookingTest {
         modified.set(Calendar.SECOND, 55);
         booking = new Booking.Builder().setId(1).setUser(user).setState(Booking.State.BOOKED)
                 .setLocated(Booking.Place.LIBRARY).setModified(modified).build();
-        System.out.println(booking.toString());
-        System.out.println(modified.getTime());
     }
 
     @Test

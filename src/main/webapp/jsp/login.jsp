@@ -8,7 +8,7 @@
         </div>
     </div>
 </c:if>
-<div class="container-sm pt-2 bg-light border col-sm-4 col-sm-offset-4 my-5 ">
+<div class="container-sm pt-2 bg-light border col-sm-4 col-sm-offset-4 my-5">
     <div class="row">
         <h1><fmt:message key='header.login'/></h1>
     </div>

@@ -13,8 +13,8 @@ import library.model.entities.Book;
 import library.model.entities.BookStat;
 import library.model.entities.Booking;
 import library.model.entities.User;
-import library.utils.wrappers.SafeRequest;
-import library.utils.wrappers.SafeSession;
+import library.utils.validation.SafeRequest;
+import library.utils.validation.SafeSession;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

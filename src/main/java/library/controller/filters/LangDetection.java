@@ -2,7 +2,7 @@ package library.controller.filters;
 
 import library.exceptions.ServiceException;
 import library.model.entities.Lang;
-import library.utils.wrappers.SafeContext;
+import library.utils.validation.SafeContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

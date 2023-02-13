@@ -11,7 +11,7 @@ import java.util.ResourceBundle;
 
 /**
  * Configures and obtains HikariDataSource that we use to connect to the dataBase.
- * return singleton instance of HikariDataSource
+ * return instance of HikariDataSource
  */
 public class ConnectionPool {
     static ResourceBundle resourceBundle = ResourceBundle.getBundle("dataBase");

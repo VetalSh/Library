@@ -10,9 +10,9 @@ import library.model.entities.Lang;
 import library.model.entities.User;
 import library.utils.Captcha;
 import library.utils.PasswordUtil;
-import library.utils.wrappers.SafeContext;
-import library.utils.wrappers.SafeRequest;
-import library.utils.wrappers.SafeSession;
+import library.utils.validation.SafeContext;
+import library.utils.validation.SafeRequest;
+import library.utils.validation.SafeSession;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -5,7 +5,7 @@ import library.exceptions.DaoException;
 import library.exceptions.ServiceException;
 import library.model.dao.AbstractSuperDao;
 import library.model.entities.Entity;
-import library.utils.wrappers.SafeRequest;
+import library.utils.validation.SafeRequest;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -24,9 +24,6 @@ import static library.utils.constants.ServletAttributes.*;
 class CommonLogicFunctions {
     private static final Logger logger = LogManager.getLogger(CommonLogicFunctions.class);
 
-    /**
-     * Made private intentionally, no instance is needed by design
-     */
     private CommonLogicFunctions() {
     }
 

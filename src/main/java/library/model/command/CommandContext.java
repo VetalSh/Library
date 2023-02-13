@@ -18,9 +18,6 @@ public class CommandContext {
     private static final Logger logger = LogManager.getLogger(CommandContext.class);
     private static final Map<String, AuthContext> commands = new HashMap<>();
 
-    /**
-     * Intentionally private
-     */
     private CommandContext() {
     }
 
@@ -53,8 +50,9 @@ public class CommandContext {
         commands.put("author.delete", new AuthContext(AuthorLogic::delete, User.Role.ADMIN));
         commands.put("author.find", new AuthContext(AuthorLogic::find, User.Role.ADMIN));
         commands.put("author.findAll", new AuthContext(AuthorLogic::findAll, User.Role.ADMIN));
-        commands.put("/html/favicon.png", new AuthContext(null, User.Role.UNKNOWN));
-        commands.put("/favicon.png", new AuthContext(null, User.Role.UNKNOWN));
+        commands.put("/img/favicon.png", new AuthContext(null, User.Role.UNKNOWN));
+        commands.put("/img/lib-background.jpg", new AuthContext(null, User.Role.UNKNOWN));
+        commands.put("/img/lib-background1.jpg", new AuthContext(null, User.Role.UNKNOWN));
 
         commands.put(Pages.ERROR, new AuthContext(null, User.Role.UNKNOWN));
         commands.put(Pages.MY_BOOKS, new AuthContext(null, User.Role.USER));
